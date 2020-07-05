@@ -1,0 +1,144 @@
+
+body{
+    background-color: rgb(243, 241, 241);
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    /* border:2px solid red */
+}
+.nav{
+    position: fixed;
+    color: white;
+    background-color: rgb(17, 112, 236);
+    padding-left: 11%;
+    padding-right: 17%;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-style: italic;
+    width: 100%;
+}
+.nav h2{
+    display: inline-block;
+    width: 8%;
+    font-size: 150%;
+}
+.nav span input{
+    width: 30%;
+    padding: 1%;
+    margin-left: 10%;
+    border-radius: 7%;
+    border-width: 0px;
+}
+.loginbtn{
+    color: blue;
+    font-size: 100%;
+    width: 10%;
+    border-radius: 7%;
+    margin-left: 20%;
+    background-color: white;
+    border-width: 0px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.filters{
+    position: fixed;
+    top: 71px;
+    background-color: white;
+    padding-right: 80px;
+    float: left;
+    width: 14%;
+    height: 88%;
+    margin: 10px;
+    overflow-y: scroll;
+
+}
+.filter_back{
+    background-color: rgb(243, 241, 241);
+    width: 250%;
+}
+.filter_heading{
+    background-color: white;
+    padding-left: 1%;
+    font-family: sans-serif ;
+    font-size: 100%;
+    font-weight: 550;
+    margin-bottom: 1px;
+    padding: 20px;
+}
+.filters label{
+    font-size: 80%;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.filter_head{
+    background-color: white;
+    margin-bottom: 2px;
+    padding: 4%;
+    font-family: sans-serif ;
+    text-underline-position: below;
+}
+.filter-input{
+    margin: 6px;
+    cursor: pointer;
+    
+}
+.options{
+    font-size: 100%;
+    padding-left: 1%;
+    color: #212121;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+.descr{
+    position: fixed;
+    overflow-y: scroll;
+    background-color: rgb(243, 241, 241);
+    float: left;
+    width: 59%;
+    height: 88%;
+    top: 0%;
+    left: 0.7%;
+    margin-top: 80px;
+    margin-left: 19.15%;
+    
+    
+}
+.descr_box{
+    background-color: white;
+    width: 90%;
+    height: 38%;
+    padding: 2%;
+    padding-right: 14%;
+}
+.descr_total{
+    margin-left: 18%;
+    margin-top: 1%;
+}
+.descr_image{
+    height: 100%;
+    width: 15%;
+}
+.descr_head{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 550;
+}
+.descr_list{
+    font-size: 110%;
+    margin-bottom: 50%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.twitter{
+    position: fixed;
+    top: 71px;
+    right: 0px;
+    background-color: white;
+    overflow-y: scroll;
+    float: left;
+    width: 20%;
+    height: 671px;
+    margin: 10px;
+}
